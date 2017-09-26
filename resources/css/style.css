@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 5;
+  background-color: orange;
+  height: 62px;
+  width: 100%;
+  align-items: center;
+}
+
+header img {
+  margin-left: 24px;
+  height: 32px;
+}
+
+header p {
+  text-transform: uppercase;
+}
+
+header strong {
+  font-weight: bold;
+}
+
+nav {
+  margin-right: 24px;
+  width: 100%;
+}
+
+header li {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 16px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}

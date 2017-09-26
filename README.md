@@ -5,3 +5,4 @@ Need to:
 - write css
 - write media query for mobile
 - add links for nav
+- align nav right

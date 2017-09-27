@@ -134,6 +134,10 @@ link {
   width: 30%;
 }
 
+footer {
+padding: 16px 0 32px 24px;
+}
+
 @media only screen and (max-width: 600px) {
 
 }

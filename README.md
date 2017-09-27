@@ -10,3 +10,4 @@ Need to:
 - match colors with more detailed value
 - convert values to "em"
 - get text inline on right of picture
+- fix video

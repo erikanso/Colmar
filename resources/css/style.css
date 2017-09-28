@@ -1,5 +1,6 @@
 html {
   font-family: 'Montserrat', sans-serif;
+  color: #606060;
 }
 
 header {
@@ -7,7 +8,7 @@ header {
   flex-direction: row;
   position: fixed;
   z-index: 5;
-  background-color: orange;
+  background-color: #FFFFFF;
   height: 62px;
   width: 100%;
   align-items: center;
@@ -20,10 +21,13 @@ header img {
 
 header p {
   text-transform: uppercase;
+  color: #BBBBBB;
+  font-size: 18px;
 }
 
 header strong {
   font-weight: bold;
+  color: #606060;
 }
 
 nav {
@@ -40,7 +44,7 @@ header li {
 
 .banner {
   padding-top: 62px;
-  background-color: grey;
+  background-color: #F4F4F4;
   position: relative;
   display: inline-block;
 }
@@ -59,7 +63,7 @@ header li {
 .banner button {
   padding: 8px;
   color: white;
-  background-color: grey;
+  background-color: #606060;
 }
 
 h1 {
@@ -124,7 +128,7 @@ link {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 32px 72px;
-  background-color: grey;
+  background-color: #BBBBBB;
 }
 
 /* Not working :( */
@@ -133,7 +137,7 @@ link {
 }
 
 .course-1, .course-2, .course-3, .course-4, .course-5, .course-6 {
-  background-color: white;
+  background-color: #FFFFFF;
   height: auto;
   width: 30%;
 }

@@ -46,29 +46,36 @@ header li {
   padding-top: 62px;
   background-color: #F4F4F4;
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .banner img {
   display: inline-block;
   width: 60%;
+  height: 60%;
   padding: 24px 32px;
 }
 
 .banner-text {
-  display: inline-block;
-  float: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  height: 70%;
 }
 
 .banner button {
+  margin-top: 24px;
   padding: 8px;
   color: white;
   background-color: #606060;
+  width: 20%;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 32px;
+  font-size: 36px;
   padding-bottom: 24px;
 }
 
@@ -86,6 +93,10 @@ h3 {
 
 p {
   font-size: 12px;
+}
+
+em {
+  font-style: italic;
 }
 
 /* not working... :( */

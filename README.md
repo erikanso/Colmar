@@ -5,9 +5,13 @@ Need to:
 - <s>install fonts</s>
 - <s>convert colors to hexadecimal values</s>
 - <s>get text inline on right of picture</s>
-- write css (in progress)
+- <s>write css</s>
+- <s>align nav right</s>
 - write media query for mobile
 - add links for nav
-- align nav right
 - convert values to "em"
 - fix video
+- add hyperlinks (text "blue")
+- "unstretch" images from sidebar
+- final review (check colors)
+- add personal flare!

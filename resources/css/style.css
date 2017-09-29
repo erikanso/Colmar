@@ -87,7 +87,7 @@ h1 {
 
   /* Main headings on second half */
 h2 {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 24px;
 }
 
@@ -98,7 +98,8 @@ h3 {
 }
 
 p {
-  font-size: 12px;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 em {
@@ -119,12 +120,12 @@ link {
 .info-main {
   display: inline-flex;
   flex-direction: column;
-  width: 60%;
+  width: 68%;
   padding: 32px 24px;
 }
 
 .info-main img {
-  width: 90%;
+  width: 100%;
   padding-bottom: 24px;
 }
 
@@ -133,11 +134,28 @@ link {
   display: inline-flex;
   float: left;
   flex-direction: column;
+  border: 2px solid #F4F4F4;
 }
 
+.sidebar-1, .sidebar-2, .sidebar-3 {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #F4F4F4;
+}
+
+.sidebar-1-text, .sidebar-2-text, .sidebar-3-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: left;
+  justify-content: center;
+}
+
+/* Supposed to be "auto" */
 .sidebar-1 img, .sidebar-2 img, .sidebar-3 img {
-  width: 35%;
-  height: auto;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
   padding: 16px;
 }
 
@@ -152,6 +170,7 @@ link {
 /* Not working :( */
 .courses h2 {
   display: block;
+  padding: 32px;
 }
 
 .course-1, .course-2, .course-3, .course-4, .course-5, .course-6 {
@@ -160,8 +179,50 @@ link {
   width: 30%;
 }
 
+/* None working... :( */
+.courses img {
+  height: auto;
+  overflow: hidden;
+  position: center;
+}
+
+.thesis {
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis h1{
+  padding: 32px;
+  text-align: center;
+}
+
+/* Not visible */
+.video {
+  width: 60%;
+  padding: 24px;
+  padding-top: 0;
+}
+
+video {
+  width: 100%;
+}
+
+.thesis-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
-padding: 16px 0 32px 24px;
+  width: 100%;
+  padding: 16px 0 32px 24px;
+}
+
+footer li {
+  width: 100%;
+  display: flex;
+  flex-direction: row; /* won't be horizontal */
+  text-align: right;
+  padding: 12px;
 }
 
 @media only screen and (max-width: 600px) {

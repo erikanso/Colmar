@@ -50,7 +50,7 @@ header li {
   flex-direction: row;
   align-items: center;
   padding-top: 62px;
-  background-color: #F4F4F4;
+  background-color: #DFDFDF;
   position: relative;
   text-align: left;
 }
@@ -161,30 +161,31 @@ link {
 
 .course-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 32px;
+  flex-direction: column;
+  padding-top: 32px;
   text-align: center;
   justify-content: center;
-  background-color: #BBBBBB;
+  background-color: #DFDFDF;
 }
 
 .courses {
   display: flex;
+  flex-wrap: wrap;
   text-align: left;
-  margin: 0 72px 32px;
+  justify-content: center;
+  margin: 0 72px;
 }
 
 .course-box {
   background-color: #FFFFFF;
   text-align: left;
   height: auto;
-  width: 60%;
-  margin: 32px;
+  width: 350px;
+  margin: 0 16px 32px;
 }
 
 .course-box img {
-  height: 150px;
+  height: 179px;
   overflow: hidden;
   position: center;
 }

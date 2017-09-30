@@ -3,6 +3,42 @@ html {
   color: #606060;
 }
 
+/* Text features */
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  padding-bottom: 24px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+em {
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* not working... :( */
+link {
+  color: blue;
+}
+
+/* Text features */
+/* Header */
+
 header {
   display: flex;
   flex-direction: row;
@@ -45,6 +81,9 @@ header li {
   margin-right: 16px;
 }
 
+/* Header */
+/* Main banner section */
+
 .banner {
   display: flex;
   flex-direction: row;
@@ -79,38 +118,8 @@ header li {
   align-self: left;
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 36px;
-  padding-bottom: 24px;
-}
-
-  /* Main headings on second half */
-h2 {
-  font-weight: 400;
-  font-size: 24px;
-}
-
- /* Minor headings */
-h3 {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 150%;
-}
-
-em {
-  font-style: italic;
-  font-weight: 300;
-}
-
-/* not working... :( */
-link {
-  color: blue;
-}
+/* Main banner section */
+/* "Info-main" section */
 
 .container {
   display: flex;
@@ -159,6 +168,9 @@ link {
   padding: 16px;
 }
 
+/* "Info-main" section */
+/* "Start learning" (courses) section */
+
 .course-container {
   display: flex;
   flex-direction: column;
@@ -194,6 +206,9 @@ link {
   padding: 16px;
 }
 
+/* "Start learning" (courses) section */
+/* "Thesis exhibit" section */
+
 .thesis {
   display: flex;
   flex-direction: column;
@@ -215,6 +230,9 @@ video {
   width: 100%;
 }
 
+/* "Thesis exhibit" section */
+/* Footer */
+
 footer {
   width: 100%;
   padding: 16px 0 32px 24px;
@@ -227,6 +245,8 @@ footer li {
   text-align: right;
   padding: 12px;
 }
+
+/* Footer */
 
 @media only screen and (max-width: 600px) {
 

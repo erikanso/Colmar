@@ -8,6 +8,7 @@ Need to:
 - <s>write css</s>
 - <s>align nav right</s>
 - align footer ul right
+- adjust top alignment for nav id clicks
 - write media query for mobile
 - add links for nav
 - convert values to "em"

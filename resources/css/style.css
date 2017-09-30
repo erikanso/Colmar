@@ -75,7 +75,7 @@ nav {
   width: 100%;
 }
 
-header li {
+header a {
   display: inline-flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -127,14 +127,14 @@ header li {
   flex-direction: row;
 }
 
-.info-main {
+#on-campus {
   display: inline-flex;
   flex-direction: column;
   width: 68%;
   padding: 32px 24px;
 }
 
-.info-main img {
+#on-campus img {
   width: 100%;
   padding-bottom: 24px;
 }
@@ -171,7 +171,7 @@ header li {
 /* "Info-main" section */
 /* "Start learning" (courses) section */
 
-.course-container {
+#online{
   display: flex;
   flex-direction: column;
   padding-top: 32px;
@@ -209,22 +209,22 @@ header li {
 /* "Start learning" (courses) section */
 /* "Thesis exhibit" section */
 
-.thesis {
+#thesis {
   display: flex;
   flex-direction: column;
 }
 
-.thesis h1{
+#thesis h1{
   padding: 32px;
   text-align: center;
 }
 
-.thesis h3 {
+#thesis h3 {
   padding-top: 24px;
   padding-bottom: 8px;
 }
 
-.thesis p {
+#thesis p {
   padding-bottom: 32px;
 }
 

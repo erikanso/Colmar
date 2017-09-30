@@ -137,13 +137,13 @@ link {
   border: 2px solid #F4F4F4;
 }
 
-.sidebar-1, .sidebar-2, .sidebar-3 {
+.sidebar-item {
   display: flex;
   flex-direction: row;
   border: 2px solid #F4F4F4;
 }
 
-.sidebar-1-text, .sidebar-2-text, .sidebar-3-text {
+.sidebar-text {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -152,7 +152,7 @@ link {
 }
 
 /* Supposed to be "auto" */
-.sidebar-1 img, .sidebar-2 img, .sidebar-3 img {
+.sidebar-item img {
   width: 200px;
   height: 200px;
   overflow: hidden;

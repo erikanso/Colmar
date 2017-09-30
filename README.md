@@ -11,6 +11,8 @@ Need to:
 - add links for nav
 - convert values to "em"
 - fix video
+- fix sidebar (guest lecture)
+- fix "extra scroll" along right
 - add hyperlinks (text "blue")
 - "unstretch" images from sidebar
 - final review (check colors)

@@ -159,29 +159,31 @@ link {
   padding: 16px;
 }
 
-.courses {
+.course-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 32px 72px;
+  padding: 32px;
+  text-align: center;
+  justify-content: center;
   background-color: #BBBBBB;
 }
 
-/* Not working :( */
-.courses h2 {
-  display: block;
-  padding: 32px;
+.courses {
+  display: flex;
+  text-align: left;
+  margin: 0 72px 32px;
 }
 
-.course-1, .course-2, .course-3, .course-4, .course-5, .course-6 {
+.course-box {
   background-color: #FFFFFF;
+  text-align: left;
   height: auto;
-  width: 30%;
+  width: 60%;
 }
 
-/* None working... :( */
-.courses img {
-  height: auto;
+.course-box img {
+  height: 150px;
   overflow: hidden;
   position: center;
 }
@@ -205,11 +207,6 @@ link {
 
 video {
   width: 100%;
-}
-
-.thesis-sidebar {
-  display: flex;
-  flex-direction: column;
 }
 
 footer {

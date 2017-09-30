@@ -180,12 +180,17 @@ link {
   text-align: left;
   height: auto;
   width: 60%;
+  margin: 32px;
 }
 
 .course-box img {
   height: 150px;
   overflow: hidden;
   position: center;
+}
+
+.course-textbox {
+  padding: 16px;
 }
 
 .thesis {

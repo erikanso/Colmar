@@ -45,11 +45,11 @@ header {
   flex-direction: row;
   position: fixed;
   float: right;
+  align-items: center;
   z-index: 5;
   background-color: #FFFFFF;
   height: 62px;
   width: 100%;
-  align-items: center;
 }
 
 header img {

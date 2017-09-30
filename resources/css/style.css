@@ -32,8 +32,9 @@ em {
 }
 
 /* not working... :( */
-link {
-  color: blue;
+a {
+  color: #5DB8FC;
+  text-decoration: none;
 }
 
 /* Text features */
@@ -68,7 +69,7 @@ header strong {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   text-align: right;
   right: 24px;
   width: 100%;
@@ -164,6 +165,7 @@ header li {
   position: relative;
   text-align: left;
   justify-content: center;
+  line-height: 2;
 }
 
 /* "Info-main" section */
@@ -240,6 +242,8 @@ video {
 /* Footer */
 
 footer {
+  display: flex;
+  flex-direction: row;
   width: 100%;
   padding: 16px 0 32px 24px;
   border-top: 2px solid #F4F4F4;
@@ -247,8 +251,6 @@ footer {
 
 footer li {
   width: 100%;
-  display: flex;
-  flex-direction: row; /* won't be horizontal */
   text-align: right;
   padding: 12px;
 }

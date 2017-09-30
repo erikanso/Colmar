@@ -7,6 +7,7 @@ Need to:
 - <s>get text inline on right of picture</s>
 - <s>write css</s>
 - <s>align nav right</s>
+- align footer ul right
 - write media query for mobile
 - add links for nav
 - convert values to "em"

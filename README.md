@@ -10,6 +10,7 @@ Need to:
 - write media query for mobile
 - add links for nav
 - convert values to "em"
+- make sidebar-item hover grey (& remove outline)
 - fix video
 - fix sidebar (guest lecture)
 - fix "extra scroll" along right

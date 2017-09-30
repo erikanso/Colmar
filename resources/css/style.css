@@ -143,13 +143,19 @@ header li {
   display: inline-flex;
   float: left;
   flex-direction: column;
-  border: 2px solid #F4F4F4;
 }
 
 .sidebar-item {
   display: flex;
-  flex-direction: row;
   border: 2px solid #F4F4F4;
+}
+
+/* height not right */
+.sidebar-item img {
+  width: 35%;
+  height: auto;
+  overflow: hidden;
+  padding: 16px;
 }
 
 .sidebar-text {
@@ -158,14 +164,6 @@ header li {
   position: relative;
   text-align: left;
   justify-content: center;
-}
-
-/* Supposed to be "auto" */
-.sidebar-item img {
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  padding: 16px;
 }
 
 /* "Info-main" section */
@@ -219,7 +217,15 @@ header li {
   text-align: center;
 }
 
-/* Not visible */
+.thesis h3 {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.thesis p {
+  padding-bottom: 32px;
+}
+
 .video {
   width: 60%;
   padding: 24px;
@@ -236,6 +242,7 @@ video {
 footer {
   width: 100%;
   padding: 16px 0 32px 24px;
+  border-top: 2px solid #F4F4F4;
 }
 
 footer li {

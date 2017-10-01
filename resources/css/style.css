@@ -87,7 +87,7 @@ header a {
 }
 
 @media only screen and (max-width: 800px) {
-  header nav, p {
+  header nav, header p {
     display: none;
   }
 
@@ -259,7 +259,7 @@ header a {
 }
 
 @media only screen and (max-width: 800px) {
-  .course-box img {
+  .course-box img, .courses p {
     display: none;
   }
 }
@@ -297,13 +297,20 @@ video {
 }
 
 @media only screen and (max-width: 800px) {
+/*
   .video, #thesis .container {
+    display: none;
+  } */
+
+  #thesis .sidebar, .video p, .video h3 {
     display: none;
   }
 
-  .video video { /* Need to only show video for this section*/
-    display: flex;
+  .video { /* Need to only show video for this section*/
+    width: 100%;
   }
+
+  #thesis .sidebar
 }
 
 /* "Thesis exhibit" section */

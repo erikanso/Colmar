@@ -296,6 +296,16 @@ video {
   width: 100%;
 }
 
+@media only screen and (max-width: 800px) {
+  .video, #thesis .container {
+    display: none;
+  }
+
+  .video video { /* Need to only show video for this section*/
+    display: flex;
+  }
+}
+
 /* "Thesis exhibit" section */
 /* Footer */
 

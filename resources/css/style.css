@@ -148,6 +148,15 @@ header a {
 
   .banner {
     flex-direction: column;
+    text-align: center;
+  }
+
+  .banner button { /* Won't align center */
+    align-self: center;
+  }
+
+  .banner-text {
+    padding: 32px 16px;
   }
 }
 

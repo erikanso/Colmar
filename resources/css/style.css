@@ -143,6 +143,11 @@ header a {
   .banner img, .banner-text {
     width: 100%;
     padding: 0;
+    margin: 0;
+  }
+
+  .banner {
+    flex-direction: column;
   }
 }
 

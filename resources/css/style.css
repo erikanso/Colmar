@@ -3,6 +3,10 @@ html {
   color: #606060;
 }
 
+.mobile {
+  display: none;
+}
+
 /* Text features */
 
 h1 {
@@ -82,6 +86,21 @@ header a {
   margin-right: 16px;
 }
 
+@media only screen and (max-width: 800px) {
+  header nav, p {
+    display: none;
+  }
+
+  header img {
+    display: flex;
+    justify-content: center; /* not working */
+  }
+
+  .mobile {
+    display: flex;
+  }
+}
+
 /* Header */
 /* Main banner section */
 
@@ -106,6 +125,7 @@ header a {
   display: flex;
   flex-direction: column;
   margin-left: 24px;
+  margin: 32px 24px;
   height: 70%;
 }
 
@@ -117,6 +137,13 @@ header a {
   width: 60%;
   font-size: 16px;
   align-self: left;
+}
+
+@media only screen and (max-width: 800px) {
+  .banner img, .banner-text {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 /* Main banner section */
@@ -257,6 +284,6 @@ footer li {
 
 /* Footer */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
 }

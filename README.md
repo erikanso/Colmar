@@ -9,7 +9,7 @@ Need to:
 - <s>align nav right</s>
 - <s>add links for nav</s>
 - <s>"unstretch" images from sidebar</s>
-- add hyperlinks (text "blue")
+- <s>add hyperlinks (text "blue")</s>
 - align footer ul right
 - adjust top alignment for nav id clicks
 - write media query for mobile

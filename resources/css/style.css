@@ -151,7 +151,7 @@ header a {
     text-align: center;
   }
 
-  .banner button { /* Won't align center */
+  .banner button {
     align-self: center;
   }
 
@@ -208,6 +208,17 @@ header a {
   justify-content: center;
   line-height: 2;
 }
+
+@media only screen and (max-width: 800px) {
+  .on-campus-desktop {
+    display: none;
+  }
+
+  .sidebar-item { /* needs to override container... */ 
+    width: 100%;
+  }
+}
+
 
 /* "Info-main" section */
 /* "Start learning" (courses) section */

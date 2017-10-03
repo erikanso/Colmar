@@ -183,7 +183,6 @@ header a {
 .sidebar {
   width: 40%;
   display: inline-flex;
-  float: left;
   flex-direction: column;
 }
 
@@ -192,7 +191,6 @@ header a {
   border: 2px solid #F4F4F4;
 }
 
-/* height not right */
 .sidebar-item img {
   width: 35%;
   height: auto;
@@ -207,6 +205,7 @@ header a {
   position: relative;
   text-align: left;
   justify-content: center;
+  width: 60%;
   line-height: 2;
 }
 
@@ -215,11 +214,30 @@ header a {
     display: none;
   }
 
-  .sidebar-item { /* needs to override container... */
+  .sidebar { /* needs to override container... */
+    width: 500000%;   /* Doesn't make sense */
+    align-self: center;
+  }
+
+  .sidebar-item {
+    border: none;
+  }
+
+  .sidebar-item img {
     width: 100%;
   }
+
+  .sidebar-text {
+
+  }
+
 }
 
+@media only screen and (max-width: 1000px) and (min-width: 801px) {
+  .sidebar-item img{ /* needs to override container... */
+    display: none;
+  }
+}
 
 /* "Info-main" section */
 /* "Start learning" (courses) section */

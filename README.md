@@ -10,15 +10,15 @@ Need to:
 - <s>add links for nav</s>
 - <s>"unstretch" images from sidebar</s>
 - <s>add hyperlinks (text "blue")</s>
+- <s>write media query for mobile</s>
+- <s>fix sidebar img</s>
 - align footer ul right
-- adjust top alignment for nav id clicks
-- write media query for mobile
-- make sidebar-item hover grey (& remove outline)
 - fix video
-- fix sidebar (guest lecture)
 - fix "extra scroll" along right
 - make links responsive
 - final review (check colors)
 - add personal flare!
 - convert values to "em"
 - create funny sign-in page
+- adjust top alignment for nav id clicks
+- make sidebar-item hover grey (& remove outline)

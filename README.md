@@ -11,9 +11,9 @@ Need to:
 - <s>"unstretch" images from sidebar</s>
 - <s>add hyperlinks (text "blue")</s>
 - <s>write media query for mobile</s>
+- <s>fix video</s>
 - <s>fix sidebar img</s>
 - align footer ul right
-- fix video
 - fix "extra scroll" along right
 - make links responsive
 - final review (check colors)

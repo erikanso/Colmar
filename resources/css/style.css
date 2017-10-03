@@ -36,10 +36,14 @@ em {
   font-weight: 300;
 }
 
-/* not working... :( */
 a {
   color: #5DB8FC;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 /* Text features End */
@@ -92,9 +96,9 @@ header a {
     display: none;
   }
 
-  header img {
+  header img { /* Not working */
     display: flex;
-    justify-content: center; /* not working */
+    justify-content: space-around;
   }
 
   .mobile {
@@ -167,6 +171,7 @@ header a {
 .container {
   display: flex;
   flex-direction: row;
+  margin: 0 auto;
 }
 
 #on-campus {
@@ -176,7 +181,7 @@ header a {
   padding: 32px 24px;
 }
 
-#on-campus img {
+.on-campus-desktop img {
   width: 100%;
   padding-bottom: 24px;
 }
@@ -221,16 +226,20 @@ header a {
   }
 
   .sidebar-item {
+    flex-direction: column;
     border: none;
+    justify-content: center;
   }
 
   .sidebar-item img {
     width: 100%;
+    max-width: 600px;
   }
 
   .sidebar-text {
     display: block flex;
     flex-direction: column;
+    padding: 0 32px;
   }
 }
 

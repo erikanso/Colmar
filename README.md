@@ -20,5 +20,6 @@ Need to:
 - add personal flare!
 - convert values to "em"
 - create funny sign-in page
+- improve tablet view with image sizes
 - adjust top alignment for nav id clicks
 - make sidebar-item hover grey (& remove outline)

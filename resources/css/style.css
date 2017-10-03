@@ -7,7 +7,7 @@ html {
   display: none;
 }
 
-/* Text features */
+/* Text features Start */
 
 h1 {
   font-weight: bold;
@@ -41,8 +41,8 @@ a {
   text-decoration: none;
 }
 
-/* Text features */
-/* Header */
+/* Text features End */
+/* Header Start */
 
 header {
   display: flex;
@@ -101,8 +101,8 @@ header a {
   }
 }
 
-/* Header */
-/* Main banner section */
+/* Header End */
+/* Main banner section Start */
 
 .banner {
   display: flex;
@@ -160,8 +160,8 @@ header a {
   }
 }
 
-/* Main banner section */
-/* "Info-main" section */
+/* Main banner section End */
+/* "Info-main" section Start */
 
 .container {
   display: flex;
@@ -228,9 +228,9 @@ header a {
   }
 
   .sidebar-text {
-
+    display: block flex;
+    flex-direction: column;
   }
-
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 801px) {
@@ -239,8 +239,8 @@ header a {
   }
 }
 
-/* "Info-main" section */
-/* "Start learning" (courses) section */
+/* "Info-main" section End */
+/* "Start learning" (courses) section Start */
 
 #online{
   display: flex;
@@ -278,13 +278,28 @@ header a {
 }
 
 @media only screen and (max-width: 800px) {
+  #online {
+    background-color: #FFFFFF;
+    border-top: 1px solid #BBBBBB;
+    border-bottom:1px solid #BBBBBB;
+  }
+
+  .course-box {
+    width: 95%;
+    background-color: #BBBBBB;
+  }
+
   .course-box img, .courses p {
     display: none;
   }
+
+  .courses h3 {
+    text-align: center;
+  }
 }
 
-/* "Start learning" (courses) section */
-/* "Thesis exhibit" section */
+/* "Start learning" (courses) section End */
+/* "Thesis exhibit" section Start */
 
 #thesis {
   display: flex;
@@ -333,15 +348,15 @@ video {
   #thesis .sidebar
 }
 
-/* "Thesis exhibit" section */
-/* Footer */
+/* "Thesis exhibit" section End */
+/* Footer Start */
 
 footer {
   display: flex;
   flex-direction: row;
   width: 100%;
   padding: 16px 0 32px 24px;
-  border-top: 2px solid #F4F4F4;
+  border-top: 2px solid #BBBBBB;
 }
 
 footer li {
@@ -350,7 +365,7 @@ footer li {
   padding: 12px;
 }
 
-/* Footer */
+/* Footer End */
 
 @media only screen and (max-width: 800px) {
   footer li {

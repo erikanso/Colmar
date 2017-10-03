@@ -13,13 +13,9 @@ Need to:
 - <s>write media query for mobile</s>
 - <s>fix video</s>
 - <s>fix sidebar img</s>
-- align footer ul right
+- <s>align footer ul right</s>
 - fix "extra scroll" along right
 - make links responsive
 - final review (check colors)
-- add personal flare!
 - convert values to "em"
-- create funny sign-in page
-- improve tablet view with image sizes
-- adjust top alignment for nav id clicks
-- make sidebar-item hover grey (& remove outline)
+- adjust top alignment for nav id clicks (Top of section hidden by header)

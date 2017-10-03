@@ -1,6 +1,7 @@
 html {
   font-family: 'Montserrat', sans-serif;
   color: #606060;
+  margin: 0 auto;
 }
 
 .mobile {
@@ -354,21 +355,20 @@ video {
 footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   padding: 16px 0 32px 24px;
   border-top: 2px solid #BBBBBB;
 }
 
-footer li {
-  width: 100%;
-  text-align: right;
-  padding: 12px;
+footer span {
+  padding-right: 16px;
 }
 
 /* Footer End */
 
 @media only screen and (max-width: 800px) {
-  footer li {
+  footer span {
     display: none;
   }
 }

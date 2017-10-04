@@ -77,14 +77,14 @@ header strong {
   color: #606060;
 }
 
-nav {
+ul {
   position: fixed;
   text-align: right;
   right: 24px;
   width: 100%;
 }
 
-header a {
+header li {   /* Oddly spaced from the top */
   display: inline-flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -92,7 +92,7 @@ header a {
 }
 
 @media only screen and (max-width: 800px) {
-  header nav, header p {
+  header ul, header p {
     display: none;
   }
 

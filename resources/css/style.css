@@ -37,7 +37,7 @@ em {
 }
 
 a {
-  color: #5DB8FC;
+  color: #5189BC;
   text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ header {
   float: right;
   align-items: center;
   z-index: 5;
-  background-color: #FFFFFF;
+  background-color: #08477F;
   height: 62px;
   width: 100%;
 }
@@ -68,13 +68,13 @@ header img {
 
 header p {
   text-transform: uppercase;
-  color: #BBBBBB;
+  color: #5189BC;
   font-size: 18px;
 }
 
 header strong {
   font-weight: bold;
-  color: #606060;
+  color: #2F70AA;
 }
 
 ul {
@@ -114,7 +114,7 @@ header li {   /* Oddly spaced from the top */
   flex-direction: row;
   align-items: center;
   padding-top: 62px;
-  background-color: #DFDFDF;
+  background-color: #FFDA63;
   position: relative;
   text-align: left;
 }
@@ -132,13 +132,15 @@ header li {   /* Oddly spaced from the top */
   margin-left: 24px;
   margin: 32px 24px;
   height: 70%;
+  color: #9B7600;
 }
 
 .banner button {
   margin-top: 24px;
   padding: 8px;
   color: white;
-  background-color: #606060;
+  background-color: #C59600;
+  color: #FFDA63;
   width: 60%;
   font-size: 16px;
   align-self: left;
@@ -172,6 +174,12 @@ header li {   /* Oddly spaced from the top */
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  background-color: #5189BC;
+  color: #08477F;
+}
+
+.container a {
+  color: #2F70AA;
 }
 
 #on-campus {
@@ -194,7 +202,7 @@ header li {   /* Oddly spaced from the top */
 
 .sidebar-item {
   display: flex;
-  border: 2px solid #F4F4F4;
+  border: 2px solid #2F70AA;
 }
 
 .sidebar-item img {
@@ -247,6 +255,10 @@ header li {   /* Oddly spaced from the top */
   .sidebar-item img{ /* needs to override container... */
     display: none;
   }
+
+  .sidebar-text {
+    padding: 16px;
+  }
 }
 
 /* "Info-main" section End */
@@ -258,7 +270,8 @@ header li {   /* Oddly spaced from the top */
   padding-top: 32px;
   text-align: center;
   justify-content: center;
-  background-color: #DFDFDF;
+  background-color: #FFDA63;
+  color: #9B7600;
 }
 
 .courses {
@@ -270,7 +283,7 @@ header li {   /* Oddly spaced from the top */
 }
 
 .course-box {
-  background-color: #FFFFFF;
+  background-color: #FFC200;
   text-align: left;
   height: auto;
   width: 350px;
@@ -289,14 +302,14 @@ header li {   /* Oddly spaced from the top */
 
 @media only screen and (max-width: 800px) {
   #online {
-    background-color: #FFFFFF;
-    border-top: 1px solid #BBBBBB;
-    border-bottom:1px solid #BBBBBB;
+    background-color: #FFDA63;
+    border-top: 1px solid #FFC200;
+    border-bottom:1px solid #FFC200;
   }
 
   .course-box {
     width: 95%;
-    background-color: #BBBBBB;
+    background-color: #FFC200;
   }
 
   .course-box img, .courses p {
@@ -314,11 +327,13 @@ header li {   /* Oddly spaced from the top */
 #thesis {
   display: flex;
   flex-direction: column;
+  background-color: #5189BC;
 }
 
 #thesis h1{
   padding: 32px;
   text-align: center;
+  color: #08477F;
 }
 
 #thesis h3 {
@@ -341,16 +356,11 @@ video {
 }
 
 @media only screen and (max-width: 800px) {
-/*
-  .video, #thesis .container {
-    display: none;
-  } */
-
   #thesis .sidebar, .video p, .video h3 {
     display: none;
   }
 
-  .video { /* Need to only show video for this section*/
+  .video {
     width: 100%;
     padding: 0 0 24px 0;
   }
@@ -367,7 +377,9 @@ footer {
   justify-content: space-between;
   width: 100%;
   padding: 16px 0 32px 24px;
-  border-top: 2px solid #BBBBBB;
+  background-color: #08477F;
+  border-top: 2px solid #5189BC;
+  color: #5189BC;
 }
 
 footer span {

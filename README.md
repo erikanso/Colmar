@@ -14,8 +14,9 @@ Need to:
 - <s>fix video</s>
 - <s>fix sidebar img</s>
 - <s>align footer ul right</s>
-- make links responsive
-- final review (check colors)
+- <s>make links responsive</s>
+- <s>final review (check colors)</s>
 - convert values to "em"
 - fix "extra scroll" along right
 - adjust top alignment for nav id clicks (Top of section hidden by header)
+- center mobile icons

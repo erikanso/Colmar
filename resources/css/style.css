@@ -379,6 +379,10 @@ footer {
   color: #5189BC;
 }
 
+footer p {
+  padding-left: 32px;
+}
+
 footer .no-border {
   display: flex;
   justify-content: space-between;

@@ -16,7 +16,7 @@ Need to:
 - <s>align footer ul right</s>
 - <s>make links responsive</s>
 - <s>final review (check colors)</s>
+- <s>fix "extra scroll" along right</s> (Thanks @notsonewb45 !)
 - convert values to "em"
-- fix "extra scroll" along right
 - adjust top alignment for nav id clicks (Top of section hidden by header)
 - center mobile icons

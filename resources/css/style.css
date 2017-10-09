@@ -373,13 +373,16 @@ video {
 
 footer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  padding: 16px 0 32px 24px;
+  padding: 32px 0;
   background-color: #08477F;
   border-top: 2px solid #5189BC;
   color: #5189BC;
+}
+
+footer .no-border {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
 }
 
 footer span {
@@ -389,6 +392,10 @@ footer span {
 /* Footer End */
 
 @media only screen and (max-width: 800px) {
+  footer .no-border {
+    width: 100%;
+  }
+
   footer span {
     display: none;
   }
